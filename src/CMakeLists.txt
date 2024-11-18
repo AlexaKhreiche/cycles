@@ -13,4 +13,5 @@ add_library(api OBJECT api.cpp)
 link_libraries(api)
 
 add_executable(client client/client_randomio.cpp)
+add_executable(client_alexa client/client_alexa.cpp)
 add_subdirectory(server)
